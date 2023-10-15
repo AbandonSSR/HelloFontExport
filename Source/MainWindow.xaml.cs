@@ -47,6 +47,9 @@ namespace HelloFontExport
 
         private void btnSelectFont_Click(object sender, RoutedEventArgs e)
         {
+            if (!Directory.Exists(this.fontPath))
+                return;
+
             var fileNames = Directory.GetFiles(this.fontPath);
             this.fontInfoTable.Rows.Clear();
             foreach (string fileName in fileNames)

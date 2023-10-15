@@ -10,8 +10,8 @@
     <ApplicationIcon>logo.ico</ApplicationIcon>
 	<Authors>AbandonSSR</Authors>
 	<Copyright>Copyright © AbandonSSR 2023</Copyright>
-	<Version>1.0.0.0</Version>
-	<FileVersion>1.0.0.0</FileVersion>
+	<Version>1.0.1.0</Version>
+	<FileVersion>1.0.1.0</FileVersion>
 	<Product>HelloFontExport</Product>
 	<ProductName>HelloFontExport</ProductName>
   </PropertyGroup>
